@@ -1,0 +1,138 @@
+### STRING1 ###
+
+mario = { hidden = yes random = no customizer = no }
+luigi = { hidden = yes random = no customizer = no }
+peach = { hidden = yes random = no customizer = no }
+daisy = { hidden = yes random = no customizer = no }
+wario = { hidden = yes random = no customizer = no }
+waluigi = { hidden = yes random = no customizer = no }
+bowser = { hidden = yes random = no customizer = no }
+byleth_female = { hidden = yes random = no customizer = no }
+byleth_female_holy = { hidden = yes random = no customizer = no }
+byleth_male = { hidden = yes random = no customizer = no }
+byleth_male_holy = { hidden = yes random = no customizer = no }
+caspar = { hidden = yes random = no customizer = no }
+caspar_skip = { hidden = yes random = no customizer = no }
+catherine = { hidden = yes random = no customizer = no }
+claude = { hidden = yes random = no customizer = no }
+claude_skip = { hidden = yes random = no customizer = no }
+cyril = { hidden = yes random = no customizer = no }
+cyril_skip = { hidden = yes random = no customizer = no }
+dedue = { hidden = yes random = no customizer = no }
+dedue_skip = { hidden = yes random = no customizer = no }
+dimitri = { hidden = yes random = no customizer = no }
+dimitri_skip = { hidden = yes random = no customizer = no }
+dorothea = { hidden = yes random = no customizer = no }
+dorothea_skip = { hidden = yes random = no customizer = no }
+edelgard = { hidden = yes random = no customizer = no }
+edelgard_skip = { hidden = yes random = no customizer = no }
+
+### STRING 2 ###
+
+felix = { hidden = yes random = no customizer = no }
+felix_skip = { hidden = yes random = no customizer = no }
+ferdinand = { hidden = yes random = no customizer = no }
+ferdinand_skip = { hidden = yes random = no customizer = no }
+flayn = { hidden = yes random = no customizer = no }
+gilbert = { hidden = yes random = no customizer = no }
+hanneman = { hidden = yes random = no customizer = no }
+hilda = { hidden = yes random = no customizer = no }
+hilda_skip = { hidden = yes random = no customizer = no }
+hubert = { hidden = yes random = no customizer = no }
+hubert_skip = { hidden = yes random = no customizer = no }
+ignatz = { hidden = yes random = no customizer = no }
+ignatz_skip = { hidden = yes random = no customizer = no }
+ingrid = { hidden = yes random = no customizer = no }
+ingrid_skip = { hidden = yes random = no customizer = no }
+leonie = { hidden = yes random = no customizer = no }
+leonie_skip = { hidden = yes random = no customizer = no }
+linhardt = { hidden = yes random = no customizer = no }
+linhardt_skip = { hidden = yes random = no customizer = no }
+lorenz = { hidden = yes random = no customizer = no }
+lorenz_skip = { hidden = yes random = no customizer = no }
+lysithea = { hidden = yes random = no customizer = no }
+lysithea_skip = { hidden = yes random = no customizer = no }
+manuella = { hidden = yes random = no customizer = no }
+marianne = { hidden = yes random = no customizer = no }
+marianne_skip = { hidden = yes random = no customizer = no }
+
+### STRING 3 ###
+
+mercedes = { hidden = yes random = no customizer = no }
+mercedes_skip = { hidden = yes random = no customizer = no }
+petra = { hidden = yes random = no customizer = no }
+petra_skip = { hidden = yes random = no customizer = no }
+raphael = { hidden = yes random = no customizer = no }
+raphael_skip = { hidden = yes random = no customizer = no }
+rhea = { hidden = yes random = no customizer = no }
+seteth = { hidden = yes random = no customizer = no }
+shamir = { hidden = yes random = no customizer = no }
+sylvain = { hidden = yes random = no customizer = no }
+sylvain_skip = { hidden = yes random = no customizer = no }
+acheron = { hidden = yes random = no customizer = no }
+aegir = { hidden = yes random = no customizer = no }
+arundel = { hidden = yes random = no customizer = no }
+cornelia = { hidden = yes random = no customizer = no }
+fleche = { hidden = yes random = no customizer = no }
+gwendal = { hidden = yes random = no customizer = no }
+ionius = { hidden = yes random = no customizer = no }
+jeralt = { hidden = yes random = no customizer = no }
+jeritza = { hidden = yes random = no customizer = no }
+judith = { hidden = yes random = no customizer = no }
+ladislava = { hidden = yes random = no customizer = no }
+lambert = { hidden = yes random = no customizer = no }
+lonato = { hidden = yes random = no customizer = no }
+metodey = { hidden = yes random = no customizer = no }
+miklan = { hidden = yes random = no customizer = no }
+
+### STRING 4 ###
+
+anna = { hidden = yes random = no customizer = no }
+kronya = { hidden = yes random = no customizer = no }
+monica = { hidden = yes random = no customizer = no }
+nader = { hidden = yes random = no customizer = no }
+nemisis = { hidden = yes random = no customizer = no }
+randolph = { hidden = yes random = no customizer = no }
+rodrigue = { hidden = yes random = no customizer = no }
+solon = { hidden = yes random = no customizer = no }
+thales = { hidden = yes random = no customizer = no }
+tomas = { hidden = yes random = no customizer = no }
+seiros = { hidden = yes random = no customizer = no }
+aelfric = { hidden = yes random = no customizer = no }
+balthus = { hidden = yes random = no customizer = no }
+balthus_skip = { hidden = yes random = no customizer = no }
+constance = { hidden = yes random = no customizer = no }
+constance_skip = { hidden = yes random = no customizer = no }
+hapi = { hidden = yes random = no customizer = no }
+hapi_skip = { hidden = yes random = no customizer = no }
+yuri = { hidden = yes random = no customizer = no }
+yuri_skip = { hidden = yes random = no customizer = no }
+goddess = { hidden = yes random = no customizer = no }
+cethleann = { hidden = yes random = no customizer = no }
+cichol = { hidden = yes random = no customizer = no }
+indech = { hidden = yes random = no customizer = no }
+macuil = { hidden = yes random = no customizer = no }
+umbral = { hidden = yes random = no customizer = no }
+
+### STRING 5 ###
+
+aubin = { hidden = yes random = no customizer = no }
+chevalier = { hidden = yes random = no customizer = no }
+noa = { hidden = yes random = no customizer = no }
+timotheos = { hidden = yes random = no customizer = no }
+blaiddyd = { hidden = yes random = no customizer = no }
+charon = { hidden = yes random = no customizer = no }
+daphnel = { hidden = yes random = no customizer = no }
+dominic = { hidden = yes random = no customizer = no }
+fraldarius = { hidden = yes random = no customizer = no }
+gautier = { hidden = yes random = no customizer = no }
+gloucester = { hidden = yes random = no customizer = no }
+goneril = { hidden = yes random = no customizer = no }
+lamine = { hidden = yes random = no customizer = no }
+riegan = { hidden = yes random = no customizer = no }
+maurice = { hidden = yes random = no customizer = no }
+nemisis = { hidden = yes random = no customizer = no }
+nemisis_old = { hidden = yes random = no customizer = no }
+pallardo = { hidden = yes random = no customizer = no }
+sitri = { hidden = yes random = no customizer = no }
+poe = { hidden = yes random = no customizer = no }

@@ -108,6 +108,7 @@
 	add_trait = charitable
 	add_trait = temperate
 	add_trait = content
+	add_trait = peach
 	historical = yes
 	disallow_random_traits = yes #Done so that Peach won't get unfitting traits
 	1957.8.13 = { #September 13th is a reference to the release date of Super Mario Bros in Japan

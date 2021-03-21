@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_dark_land
 }
+1977.6.1 ={
+	holder = 1256 #Bowser
+}

@@ -1,0 +1,546 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_replacer_1"
+		texturefile = "gfx/static_portraits/string_1.dds"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_static_1"
+		effectFile = "gfx/FX/portrait.lua"
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {
+					portrait_has_trait = mario
+					portrait_has_trait = luigi
+					portrait_has_trait = peach
+					portrait_has_trait = daisy
+					portrait_has_trait = wario
+					portrait_has_trait = waluigi
+					portrait_has_trait = bowser	
+					portrait_has_trait = byleth_female
+					portrait_has_trait = byleth_female_holy
+					portrait_has_trait = byleth_male
+					portrait_has_trait = byleth_male_holy
+					portrait_has_trait = caspar
+					portrait_has_trait = caspar_skip
+					portrait_has_trait = catherine
+					portrait_has_trait = claude
+					portrait_has_trait = claude_skip
+					portrait_has_trait = cyril
+					portrait_has_trait = cyril_skip
+					portrait_has_trait = dedue
+					portrait_has_trait = dedue_skip
+					portrait_has_trait = dimitri
+					portrait_has_trait = dimitri_skip
+					portrait_has_trait = dorothea
+					portrait_has_trait = dorothea_skip
+					portrait_has_trait = edelgard
+					portrait_has_trait = edelgard_skip
+				}
+	 		}
+        }
+
+        layer = {
+            "GFX_empty:c0" # ie. GFX_empty means it's disabling the c0 layer, so c0, c2, c3, c1, and c4 are all disabled!
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_replacer_1:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = { portrait_has_trait = mario }
+				2 = { portrait_has_trait = luigi }
+				3 = { portrait_has_trait = peach }
+				4 = { portrait_has_trait = daisy }
+				5 = { portrait_has_trait = wario }
+				6 = { portrait_has_trait = waluigi }
+				7 = { portrait_has_trait = bowser }
+				8 = { portrait_has_trait = byleth_female }
+				9 = { portrait_has_trait = byleth_female_holy }
+				10 = { portrait_has_trait = byleth_male }
+				11 = { portrait_has_trait = byleth_male_holy }
+				12 = { portrait_has_trait = caspar }
+				13 = { portrait_has_trait = caspar_skip }
+				14 = { portrait_has_trait = catherine }
+				15 = { portrait_has_trait = claude }
+				16 = { portrait_has_trait = claude_skip }
+				17 = { portrait_has_trait = cyril }
+				18 = { portrait_has_trait = cyril_skip }
+				19 = { portrait_has_trait = dedue }
+				20 = { portrait_has_trait = dedue_skip }
+				21 = { portrait_has_trait = dimitri }
+				22 = { portrait_has_trait = dimitri_skip }
+				23 = { portrait_has_trait = dorothea }
+				24 = { portrait_has_trait = dorothea_skip }
+				25 = { portrait_has_trait = edelgard }
+				26 = { portrait_has_trait = edelgard_skip }
+			}
+		}
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_replacer_2"
+		texturefile = "gfx/static_portraits/string_2.dds"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_static_2"
+		effectFile = "gfx/FX/portrait.lua"
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {
+					portrait_has_trait = felix
+					portrait_has_trait = felix_skip
+					portrait_has_trait = ferdinand
+					portrait_has_trait = ferdinand_skip
+					portrait_has_trait = flayn
+					portrait_has_trait = gilbert
+					portrait_has_trait = hanneman	
+					portrait_has_trait = hilda
+					portrait_has_trait = hilda_skip
+					portrait_has_trait = hubert
+					portrait_has_trait = hubert_skip
+					portrait_has_trait = ignatz
+					portrait_has_trait = ignatz_skip
+					portrait_has_trait = ingrid
+					portrait_has_trait = ingrid_skip
+					portrait_has_trait = leonie
+					portrait_has_trait = leonie_skip
+					portrait_has_trait = linhardt
+					portrait_has_trait = linhardt_skip
+					portrait_has_trait = lorenz
+					portrait_has_trait = lorenz_skip
+					portrait_has_trait = lysithea
+					portrait_has_trait = lysithea_skip
+					portrait_has_trait = manuella
+					portrait_has_trait = marianne
+					portrait_has_trait = marianne_skip
+				}
+	 		}
+        }
+
+        layer = {
+            "GFX_empty:c0" # ie. GFX_empty means it's disabling the c0 layer, so c0, c2, c3, c1, and c4 are all disabled!
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_replacer_2:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = { portrait_has_trait = felix }
+				2 = { portrait_has_trait = felix_skip }
+				3 = { portrait_has_trait = ferdinand }
+				4 = { portrait_has_trait = ferdinand_skip }
+				5 = { portrait_has_trait = flayn }
+				6 = { portrait_has_trait = gilbert }
+				7 = { portrait_has_trait = hanneman	 }
+				8 = { portrait_has_trait = hilda }
+				9 = { portrait_has_trait = hilda_skip }
+				10 = { portrait_has_trait = hubert }
+				11 = { portrait_has_trait = hubert_skip }
+				12 = { portrait_has_trait = ignatz }
+				13 = { portrait_has_trait = ignatz_skip }
+				14 = { portrait_has_trait = ingrid }
+				15 = { portrait_has_trait = ingrid_skip }
+				16 = { portrait_has_trait = leonie }
+				17 = { portrait_has_trait = leonie_skip }
+				18 = { portrait_has_trait = linhardt }
+				19 = { portrait_has_trait = linhardt_skip }
+				20 = { portrait_has_trait = lorenz }
+				21 = { portrait_has_trait = lorenz_skip }
+				22 = { portrait_has_trait = lysithea }
+				23 = { portrait_has_trait = lysithea_skip }
+				24 = { portrait_has_trait = manuella }
+				25 = { portrait_has_trait = marianne }
+				26 = { portrait_has_trait = marianne_skip }
+			}
+		}
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_replacer_3"
+		texturefile = "gfx/static_portraits/string_3.dds"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_static_3"
+		effectFile = "gfx/FX/portrait.lua"
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {
+					portrait_has_trait = mercedes
+					portrait_has_trait = mercedes_skip
+					portrait_has_trait = petra
+					portrait_has_trait = petra_skip
+					portrait_has_trait = raphael
+					portrait_has_trait = raphael_skip
+					portrait_has_trait = rhea	
+					portrait_has_trait = seteth
+					portrait_has_trait = shamir
+					portrait_has_trait = sylvain
+					portrait_has_trait = sylvain_skip
+					portrait_has_trait = acheron
+					portrait_has_trait = aegir
+					portrait_has_trait = arundel
+					portrait_has_trait = cornelia
+					portrait_has_trait = fleche
+					portrait_has_trait = gwendal
+					portrait_has_trait = ionius
+					portrait_has_trait = jeralt
+					portrait_has_trait = jeritza
+					portrait_has_trait = judith
+					portrait_has_trait = ladislava
+					portrait_has_trait = lambert
+					portrait_has_trait = lonato
+					portrait_has_trait = metodey
+					portrait_has_trait = miklan
+				}
+	 		}
+        }
+
+        layer = {
+            "GFX_empty:c0" # ie. GFX_empty means it's disabling the c0 layer, so c0, c2, c3, c1, and c4 are all disabled!
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_replacer_3:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = { portrait_has_trait = mercedes }
+				2 = { portrait_has_trait = mercedes_skip }
+				3 = { portrait_has_trait = petra }
+				4 = { portrait_has_trait = petra_skip }
+				5 = { portrait_has_trait = raphael }
+				6 = { portrait_has_trait = raphael_skip }
+				7 = { portrait_has_trait = rhea	 }
+				8 = { portrait_has_trait = seteth }
+				9 = { portrait_has_trait = shamir }
+				10 = { portrait_has_trait = sylvain }
+				11 = { portrait_has_trait = sylvain_skip }
+				12 = { portrait_has_trait = acheron }
+				13 = { portrait_has_trait = aegir }
+				14 = { portrait_has_trait = arundel }
+				15 = { portrait_has_trait = cornelia }
+				16 = { portrait_has_trait = fleche }
+				17 = { portrait_has_trait = gwendal }
+				18 = { portrait_has_trait = ionius }
+				19 = { portrait_has_trait = jeralt }
+				20 = { portrait_has_trait = jeritza }
+				21 = { portrait_has_trait = judith }
+				22 = { portrait_has_trait = ladislava }
+				23 = { portrait_has_trait = lambert }
+				24 = { portrait_has_trait = lonato }
+				25 = { portrait_has_trait = metodey }
+				26 = { portrait_has_trait = miklan }
+			}
+		}
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_replacer_4"
+		texturefile = "gfx/static_portraits/string_4.dds"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_static_4"
+		effectFile = "gfx/FX/portrait.lua"
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {
+					portrait_has_trait = anna
+					portrait_has_trait = kronya
+					portrait_has_trait = monica				
+					portrait_has_trait = nader
+					portrait_has_trait = nemisis_revived
+					portrait_has_trait = randolph
+					portrait_has_trait = rodrigue
+					portrait_has_trait = solon	
+					portrait_has_trait = thales
+					portrait_has_trait = tomas
+					portrait_has_trait = seiros
+					portrait_has_trait = aelfric
+					portrait_has_trait = balthus
+					portrait_has_trait = balthus_skip
+					portrait_has_trait = constance
+					portrait_has_trait = constance_skip
+					portrait_has_trait = hapi
+					portrait_has_trait = hapi_skip
+					portrait_has_trait = yuri
+					portrait_has_trait = yuri_skip
+					portrait_has_trait = goddess
+					portrait_has_trait = cethleann
+					portrait_has_trait = cichol
+					portrait_has_trait = indech
+					portrait_has_trait = macuil
+					portrait_has_trait = umbral
+				}
+	 		}
+        }
+
+        layer = {
+            "GFX_empty:c0" # ie. GFX_empty means it's disabling the c0 layer, so c0, c2, c3, c1, and c4 are all disabled!
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_replacer_4:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = { portrait_has_trait = anna }
+				2 = { portrait_has_trait = kronya }
+				3 = { portrait_has_trait = monica }
+				4 = { portrait_has_trait = nader }
+				5 = { portrait_has_trait = nemisis_revived }
+				6 = { portrait_has_trait = randolph }
+				7 = { portrait_has_trait = rodrigue	 }
+				8 = { portrait_has_trait = solon }
+				9 = { portrait_has_trait = thales }
+				10 = { portrait_has_trait = tomas }
+				11 = { portrait_has_trait = seiros }
+				12 = { portrait_has_trait = aelfric }
+				13 = { portrait_has_trait = balthus }
+				14 = { portrait_has_trait = balthus_skip }
+				15 = { portrait_has_trait = constance }
+				16 = { portrait_has_trait = constance_skip }
+				17 = { portrait_has_trait = hapi }
+				18 = { portrait_has_trait = hapi_skip }
+				19 = { portrait_has_trait = yuri }
+				20 = { portrait_has_trait = yuri_skip }
+				21 = { portrait_has_trait = goddess }
+				22 = { portrait_has_trait = cethleann }
+				23 = { portrait_has_trait = cichol }
+				24 = { portrait_has_trait = indech }
+				25 = { portrait_has_trait = macuil }
+				26 = { portrait_has_trait = umbral }
+			}
+		}
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_replacer_5"
+		texturefile = "gfx/static_portraits/string_5.dds"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_static_5"
+		effectFile = "gfx/FX/portrait.lua"
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {
+					portrait_has_trait = aubin
+					portrait_has_trait = chevalier
+					portrait_has_trait = noa					
+					portrait_has_trait = timotheos
+					portrait_has_trait = blaiddyd
+					portrait_has_trait = charon
+					portrait_has_trait = daphnel	
+					portrait_has_trait = dominic
+					portrait_has_trait = fraldarius
+					portrait_has_trait = gautier
+					portrait_has_trait = gloucester
+					portrait_has_trait = goneril
+					portrait_has_trait = lamine
+					portrait_has_trait = riegan
+					portrait_has_trait = maurice
+					portrait_has_trait = nemisis
+					portrait_has_trait = nemisis_old
+					portrait_has_trait = pallardo
+					portrait_has_trait = sitri
+					portrait_has_trait = poe
+					portrait_has_trait = a
+					portrait_has_trait = a
+					portrait_has_trait = a
+					portrait_has_trait = a
+					portrait_has_trait = a
+					portrait_has_trait = a
+				}
+	 		}
+        }
+
+        layer = {
+            "GFX_empty:c0" # ie. GFX_empty means it's disabling the c0 layer, so c0, c2, c3, c1, and c4 are all disabled!
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_replacer_5:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = { portrait_has_trait = aubin }
+				2 = { portrait_has_trait = chevalier }
+				3 = { portrait_has_trait = noa }
+				4 = { portrait_has_trait = timotheos }
+				5 = { portrait_has_trait = blaiddyd }
+				6 = { portrait_has_trait = charon }
+				7 = { portrait_has_trait = daphnel	 }
+				8 = { portrait_has_trait = dominic }
+				9 = { portrait_has_trait = fraldarius }
+				10 = { portrait_has_trait = gautier }
+				11 = { portrait_has_trait = gloucester }
+				12 = { portrait_has_trait = goneril }
+				13 = { portrait_has_trait = lamine }
+				14 = { portrait_has_trait = riegan }
+				15 = { portrait_has_trait = maurice }
+				16 = { portrait_has_trait = nemisis }
+				17 = { portrait_has_trait = nemisis_old }
+				18 = { portrait_has_trait = pallardo }
+				19 = { portrait_has_trait = sitri }
+				20 = { portrait_has_trait = poe }
+				21 = { portrait_has_trait = a }
+				22 = { portrait_has_trait = a }
+				23 = { portrait_has_trait = a }
+				24 = { portrait_has_trait = a }
+				25 = { portrait_has_trait = a }
+				26 = { portrait_has_trait = a }
+			}
+		}
+	}
+}
